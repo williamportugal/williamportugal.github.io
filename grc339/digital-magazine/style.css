@@ -10,12 +10,12 @@ img {
 body {
     line-height: 1.5;
     color: #222;
-	background-color: rgb(255, 255, 255);
+	background-color: #EBF2DE;
     margin: 0em auto;
 }
 
 div.container, div.home-container {
-    max-width: 40em;
+    max-width: 40rem;
     margin: 0 auto;
 
 }
@@ -37,7 +37,7 @@ header {
 }
 
 .logo {
-    max-width: 8em;
+    max-width: 12rem;
     height: auto;
 }
 
@@ -49,9 +49,9 @@ header {
 .site-nav li {
     list-style: none;
     margin-right: 1rem;
-    font-family: sans-serif;
+    font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: bold;
-    color: rgb(55, 94, 173);
+    color: #31473A;
 }
 
 
@@ -61,44 +61,44 @@ main {
 
 h3 {
     font-size: 2rem;
-    font-family: serif;
+    font-family: "adobe-caslon-pro", serif;
     font-weight: bold;
     margin: 0rem 0.5rem;
-    color: rgb(55, 94, 173);
+    color: #31473A;
 }
 
 h4 {
-    border-top: 2px solid rgb(55, 94, 173);
+    border-top: 2px solid #6E7F5B;
     font-size: 1.5rem;
-    font-family: serif;
+    font-family: "adobe-caslon-pro", serif;
     font-weight: bold;
     margin: 0rem 0.5rem 0.5rem;
+    color: #6E7F5B;;
 
-    color: rgb(55, 94, 173);
 }
 
 
 
  h2 {
     font-size: 3rem;
-    font-family: serif;
+    font-family: "adobe-caslon-pro", serif;
     font-weight: bold;
     margin: 0rem 0.5rem;
-    color: rgb(55, 94, 173);
+    color: #31473A;
 }
 
  p {
-    color: #4f4f4f;
-    font-size: 0.96rem;
+    color: #5E4636;
+    font-size: 1rem;
     margin: 0em 0.5rem 2rem;
-    font-family: sans-serif;
+    font-family: "neue-haas-grotesk-text", sans-serif;
 }
 
 figcaption {
-    color: #4f4f4f;
-    font-size: 0.96rem;
+    color: #5E4636;
+    font-size: 1rem;
     margin: 0em 0.5rem 1rem;
-    font-family: sans-serif;
+    font-family: "neue-haas-grotesk-text", sans-serif;
     font-style: italic;
 
 }
@@ -106,20 +106,22 @@ figcaption {
 footer {
     padding: 1.5rem 0;
     font-size: 0.9rem;
-    background:rgb(55, 94, 173);
+    background:#31473A;
     height: 1rem;
     text-align: left;
     box-sizing: border-box;
 }
 
 aside{
-    background: rgb(191, 201, 255);
+    background: #E7D0B0;
     padding: 0rem 0.5rem;
 }
 
 aside h3{
     font-size: 1.5rem;
     margin: 0rem 0rem;
+    
+
 }
 
 aside p {
@@ -128,7 +130,7 @@ aside p {
 }
 
 footer p{
-    color: rgb(255, 255, 255);
+    color: #E7D0B0;
 }
 
 @media only screen and (min-width: 40em) {
@@ -146,9 +148,9 @@ footer p{
     
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 60rem) {
     div.home-container{
-        max-width: 80em;
+        max-width: 80rem;
         padding: 0 1em;
         display: grid;
         grid-template-columns: 3fr 1fr;
