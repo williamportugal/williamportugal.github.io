@@ -397,5 +397,86 @@ div.home-container main.newsletter-signup {
 }
 
 
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        color: #d5d5d5;
+	    background-color: #282b23;
+    }
+
+    .site-nav li {
+        color: #96c99b;
+    }
+
+    h3 {
+        color: #96c99b;
+    }
+
+h4 {
+    border-top: 2px solid #4a694d;
+    color: #96c99b;;
+}
+
+ h2 {
+    color: #96c99b;
+}
+
+ p {
+    color: #bca89b;
+}
+
+figcaption {
+    color: #998172;
+}
+
+footer {
+    background:#302211;
+}
+
+aside{
+    background: #E7D0B0;
+}
+
+h1 {  
+    background-image: url("logo_dark.svg");  
+    background-repeat: no-repeat;  
+    background-size: contain;  
+} 
+
+h1 img {  
+    opacity: 0;  
+    }  
 
 
+    
+.newsletter-signup label {
+    color: #96c99b;
+}
+
+.newsletter-signup input[type="text"],
+.newsletter-signup input[type="email"] {
+    border: 1px solid #5e5849;
+    background: #172218;
+    color: #ffffff;
+}
+
+.newsletter-signup fieldset {
+    border: 1px solid #5e5849;
+    background: #172218;
+}
+
+.newsletter-signup legend {
+    color: #96c99b;
+}
+
+
+.newsletter-signup fieldset label {
+    color: #998172;
+}
+
+.newsletter-signup button {
+    background: #96c99b;
+    color: #2d271e;
+}
+
+
+}
