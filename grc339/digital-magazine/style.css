@@ -266,11 +266,16 @@ div.photogallery figure {
     inset: 0;
     opacity: 0;
     transition: opacity 0.5s;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
 }
 
 div.photogallery figure img {
     width: 100%;
-    height: 100%;
+    flex: 1 1 auto;
+    height: auto;
+    min-height: 0;
     object-fit: cover;
     display: block;
 }
